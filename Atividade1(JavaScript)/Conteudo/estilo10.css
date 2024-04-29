@@ -1,0 +1,27 @@
+html{
+    width: 100vw;
+}
+
+body{
+    height: 50vh;
+    background-image: linear-gradient(to right,  rgb(57, 197, 235), rgb(197, 40, 241));
+}
+
+header{
+    font-family: unset;
+}
+
+#contener{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#tempCelsius, button{
+    padding: 6px;
+    background-image: linear-gradient(to right,  rgb(57, 197, 235), rgb(197, 40, 241));
+    border: solid 1px rgb(57, 197, 235);
+}

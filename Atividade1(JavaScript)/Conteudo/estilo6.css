@@ -1,0 +1,26 @@
+html{
+    width: 100vw;
+}
+
+body{
+    height: 50vh;
+    background-image: linear-gradient(to right, rgb(49, 240, 167), rgb(86, 86, 240));
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contener{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#raio, button{
+    padding: 6px;
+    background-image: linear-gradient(to right, rgb(49, 240, 167), rgb(86, 86, 240));
+    border: solid 1px rgb(49, 240, 167);
+}

@@ -1,0 +1,35 @@
+html{
+    width: 100vw;
+}
+
+body{
+    height: 40vh;
+    background-image: linear-gradient(to right, rgb(74, 141, 236), rgb(255, 66, 66));
+}
+
+header{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contener{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#nota1, #nota2, #nota3,#nota4{
+    padding: 8px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgb(234, 187, 47), rgb(48, 180, 220));
+    color: rgb(33, 17, 205);
+    border: solid 1px rgb(234, 187, 47);
+}
+
+#somar, #voltar{
+    padding: 6px;
+    background-image: linear-gradient(to right, rgb(234, 187, 47), rgb(48, 180, 220));
+    border: solid 1px rgb(234, 187, 47);
+}

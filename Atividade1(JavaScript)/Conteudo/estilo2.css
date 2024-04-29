@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to right, blue, red);
+    height: 80vh;
+}
+
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+    gap: 10px;
+}
+
+.div1{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    padding: 10px;
+    background-color: purple;
+    color: aliceblue;
+}
+
+input, button{
+    background-color: purple;
+    color: aliceblue;
+    border: solid 1px purple;
+}
+

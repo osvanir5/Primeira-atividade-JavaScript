@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Salario mensal</title>
+        <link rel="stylesheet" href="estilo8.css" type="text/css">
+        <script src="script8.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Salario mensal</h1>
+        </header>
+        <div id="contener">
+            <label for="ganhoPorHora">Quanto você ganha por hora?</label>
+            <input type="number" id="ganhoPorHora">
+
+            <label for="horasTrabalhadas">Quantas horas você trabalhou no mês?</label>
+            <input type="number" id="horasTrabalhadas">
+
+            <button onclick="calcularSalario()">Calcular Salário</button>
+            <p id="resultado"></p>
+            <a href="index.html">
+                <button>Voltar</button>
+            </a>
+        </div>
+    </body>
+</html>

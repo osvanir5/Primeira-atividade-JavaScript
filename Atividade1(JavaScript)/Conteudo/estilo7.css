@@ -1,0 +1,34 @@
+html{
+    width: 100vw;
+}
+
+body{
+    height: 50vh;
+    background-image: linear-gradient(to right, rgb(228, 68, 230), rgb(57, 222, 151));
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contener{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#lado{
+    padding: 6px;
+    font-size: 15px;
+    background-image: linear-gradient(to right,  rgb(240, 121, 243), rgb(131, 220, 182));
+    border: solid 1px rgb(240, 121, 243);
+    color: aliceblue;
+}
+
+button{
+    padding: 6px;
+    background-image: linear-gradient(to right, rgb(240, 121, 243), rgb(131, 220, 182));
+    border: solid 1px rgb(240, 121, 243);
+}

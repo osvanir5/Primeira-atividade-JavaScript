@@ -1,0 +1,40 @@
+html{
+    width: 100vw;
+}
+
+body{
+    height: 70vh;
+    background-image: linear-gradient(to right,red, blue);
+}
+
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contener{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+#numero1, #numero2{
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(159, 44, 140), rgb(158, 23, 156));
+    color: aliceblue;
+    border:  solid 1px rgb(159, 44, 140);
+}
+
+button{
+    padding: 8px;
+    background-image: linear-gradient(to right, rgb(159, 44, 140), rgb(158, 23, 156));
+    color: aliceblue;
+    border:  solid 1px rgb(159, 44, 140);
+}
+
+#resultado{
+    color: #fff;
+}

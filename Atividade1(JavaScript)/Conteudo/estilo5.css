@@ -1,0 +1,27 @@
+html{
+    width: 100vw;
+}
+
+body{
+    height: 50vh;
+    background-image: linear-gradient(to right, rgb(71, 203, 247), blue);
+}
+
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contener{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#metro, button{
+    padding: 6px;
+    background-image: linear-gradient(to right, rgb(71, 203, 247), rgb(56, 56, 241));
+    border: solid 1px rgb(56, 56, 241);
+}

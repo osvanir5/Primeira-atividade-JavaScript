@@ -1,0 +1,23 @@
+html{
+    width: 100vw;
+}
+
+body{
+    height: 50vh;
+    background-image: linear-gradient(to right,  rgb(232, 57, 235), rgb(241, 131, 40));
+}
+
+#contener{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#tempFahrenheit, button{
+    padding: 6px;
+    background-image: linear-gradient(to right,   rgb(239, 90, 242), rgb(241, 131, 40));
+    border:  solid 1px rgb(241, 131, 40);
+}
